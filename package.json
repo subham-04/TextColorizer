@@ -9,7 +9,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build":"tsc",
-    "prepare": "npm runn build"
+    "prepare": "npm run build"
   },
   "keywords": ["color text","textcolorizer","console text color","colorizer"],
   "author": "Subham Bhadra",
