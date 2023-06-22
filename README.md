@@ -32,7 +32,7 @@ Log.danger('An error occurred.');
 Log.info('Please note the following information.');
 ```
 
-##Example Output
+<!-- ##Example Output
 
 Here's an example output of the usage:
 
@@ -40,9 +40,9 @@ Here's an example output of the usage:
 
 <span style="color: red;">An error occurred.</span>
 
-<span style="color: yellow;">Please note the following information.</span>
+<span style="color: yellow;">Please note the following information.</span> -->
 
-##The Log class provides the following methods:
+## The Log class provides the following methods:
 
 - success(msg: string): Displays the msg parameter in green color.
 - danger(msg: string): Displays the msg parameter in red color.
