@@ -1,6 +1,5 @@
 # TextColorizer
 
-# textcolorizer
 
 [![npm version](https://img.shields.io/npm/v/textcolorizer.svg)](https://www.npmjs.com/package/textcolorizer)
 [![License](https://img.shields.io/npm/l/textcolorizer.svg)](https://github.com/your-username/textcolorizer/blob/main/LICENSE)
@@ -33,11 +32,14 @@ Log.danger('An error occurred.');
 Log.info('Please note the following information.');
 ```
 
-###Example Output
+##Example Output
+
 Here's an example output of the usage:
 
 <span style="color: Green;">Operation successful.</span>
+
 <span style="color: red;">An error occurred.</span>
+
 <span style="color: yellow;">Please note the following information.</span>
 
 ##The Log class provides the following methods:
