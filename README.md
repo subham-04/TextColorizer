@@ -2,7 +2,7 @@
 
 
 [![npm version](https://img.shields.io/npm/v/textcolorizer.svg)](https://www.npmjs.com/package/textcolorizer)
-[![License](https://img.shields.io/npm/l/textcolorizer.svg)](https://github.com/your-username/textcolorizer/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/textcolorizer.svg)](https://github.com/subham-04/textcolorizer/blob/main/LICENSE)
 
 A simple package for adding colored text to the console log.
 
