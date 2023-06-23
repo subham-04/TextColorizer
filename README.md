@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/textcolorizer.svg)](https://www.npmjs.com/package/textcolorizer)
 [![License](https://img.shields.io/npm/l/textcolorizer.svg)](https://github.com/subham-04/textcolorizer/blob/main/LICENSE)
 
-A simple package for adding colored text to the console log.
+A simple package for adding colored text to the console log. `Currently working only on React Projects.`
 
 ## Installation
 
@@ -20,7 +20,12 @@ npm install textcolorizer
 Import the `Log` class from the `textcolorizer` package and use its methods to add colored text to the console log.
 
 ```javascript
-const { Log } = require('textcolorizer');
+import { Log } from 'textcolorizer'
+
+
+function App() {
+
+  useEffect(()=>{
 
 // Success message in green color
 Log.success('Operation successful.');
@@ -30,6 +35,26 @@ Log.danger('An error occurred.');
 
 // Information message with black text on yellow background
 Log.info('Please note the following information.');
+
+// Customised color message 1st parameter is the mesg 2nd parameter is the font color and 3rd is the background color
+Log.customColor("Custom message","blue","grey");
+
+// Make the font weight bold
+Log.bold("The font is now bold");
+
+// Italic font 
+Log.italic("The font is now Italic");
+
+  },[])
+
+  return (
+    <div className="App">
+
+      <h1>Welcome to  TextColorizer</h1>
+      
+    </div>
+  );
+}
 ```
 
 <!-- ##Example Output
