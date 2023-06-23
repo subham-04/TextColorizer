@@ -44,9 +44,9 @@ Here's an example output of the usage:
 
 ## The Log class provides the following methods:
 
-- success(msg: string): Displays the msg parameter in green color.
-- danger(msg: string): Displays the msg parameter in red color.
-- info(msg: string): Displays the msg parameter with black text on a yellow background.
+- `success(msg: string)`: Displays the msg parameter in green color.
+- `danger(msg: string)`: Displays the msg parameter in red color.
+- `info(msg: string)`: Displays the msg parameter with black text on a yellow background.
 
 Feel free to customize the colors and styles in the Log class according to your preferences.
 

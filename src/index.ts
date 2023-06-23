@@ -12,4 +12,17 @@ export class Log{
         console.log(`%c ${msg}`,`color: black; background:yellow`);
 
     }
+
+    static customColor(msg: string, color: string, background: string){
+        console.log(`%c ${msg}`,`color: ${color}; background: ${background}`);
+    }
+
+    static bold(msg: string) {
+        console.log(`%c ${msg}`, `font-weight: bold;`);
+    }
+    
+    static italic(msg: string) {
+        console.log(`%c ${msg}`, `font-style: italic;`);
+    }
+
 }
